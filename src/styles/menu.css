@@ -1,0 +1,85 @@
+.menu-header:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #ff8243;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  text-decoration-skip-ink: none;
+}
+
+.menu-header-active {
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #ff8243;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  text-decoration-skip-ink: none;
+}
+
+.menu-card {
+  border: 1px solid rgba(105, 105, 105, 0.288);
+  border-radius: 4%;
+  box-shadow: 10px 10px 26px -8px rgba(0, 0, 0, 0.68);
+  -webkit-box-shadow: 10px 10px 26px -8px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 10px 10px 26px -8px rgba(0, 0, 0, 0.68);
+  position: relative;
+}
+
+.menu-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-text {
+  font-size: 1rem;
+}
+
+.menu-img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu-content {
+  margin-top: 75px;
+}
+
+.mt-c,
+.mb-c {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+
+.see-all-btn{
+  background-color: #797472c9;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.see-all-btn:hover{
+  background-color: #ff8243;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}

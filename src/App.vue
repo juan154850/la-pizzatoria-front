@@ -2,6 +2,7 @@
   <div id="app">
     <Nav />
     <Home />
+    <Menu />
     <MyFooter />
   </div>
 </template>
@@ -11,6 +12,7 @@
   import Nav from "./components/Nav.vue";
   import MyFooter from "./components/Footer.vue";
   import Home from "./components/Home.vue";
+  import Menu from "./components/Menu.vue";
 
   export default {
     name: "App",
@@ -18,6 +20,7 @@
       Nav,
       MyFooter,
       Home,
+      Menu,
     },
   };
 </script>
