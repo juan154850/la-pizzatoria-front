@@ -7,10 +7,10 @@ import "bootstrap"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faPizzaSlice, faBurger, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faPizzaSlice, faBurger, faBars, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faPizzaSlice, faBurger, faBars)
+library.add(faPizzaSlice, faBurger, faBars, faChevronLeft, faChevronRight)
 
 
 createApp(App)
