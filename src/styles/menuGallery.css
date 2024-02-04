@@ -1,0 +1,51 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.image-card {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.gallery-button{
+  padding: 10px;
+  cursor: pointer;
+}
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.5s ease;
+  user-select: none;
+}
+
+.main-image {
+  width: 300px;
+  height: 300px;
+}
+
+.side-image {
+  transform: scale(0.8) translateY(0px);
+}
+
+.far-side-image {
+  transform: scale(0.6) translateY(100px);
+}

@@ -1,19 +1,11 @@
-<template>
-  <div id="app">
-    <Nav />
-    <Home />
-    <Menu />
-    <MyFooter />
-  </div>
-</template>
-
 <script>
   // Components
   import Nav from "./components/Nav.vue";
   import MyFooter from "./components/Footer.vue";
   import Home from "./components/Home.vue";
   import Menu from "./components/Menu.vue";
-
+  import MenuGallery from "./components/MenuGallery.vue";
+  
   export default {
     name: "App",
     components: {
@@ -21,9 +13,20 @@
       MyFooter,
       Home,
       Menu,
+      MenuGallery,
     },
   };
 </script>
+
+<template>
+  <div id="app">
+    <Nav />
+    <Home />
+    <Menu />
+    <MenuGallery />
+    <MyFooter />
+  </div>
+</template>
 
 <style>
   #app {
