@@ -2,6 +2,7 @@
     <a :href="url" :title="name" target="_blank">
         <img :src="icon" :alt="`Icon for ${url}`" />
     </a>
+    <!-- ESto es una prueba -->
 </template>
 
 <script>
