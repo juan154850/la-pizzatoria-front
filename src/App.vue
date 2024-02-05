@@ -5,6 +5,7 @@
   import Home from "./components/Home.vue";
   import Menu from "./components/Menu.vue";
   import MenuGallery from "./components/MenuGallery.vue";
+  import AboutUs from "./components/AboutUs.vue";
   
   export default {
     name: "App",
@@ -14,6 +15,7 @@
       Home,
       Menu,
       MenuGallery,
+      AboutUs,
     },
   };
 </script>
@@ -23,7 +25,8 @@
     <Nav />
     <Home />
     <Menu />
-    <MenuGallery />
+    <MenuGallery />  
+    <AboutUs />  
     <MyFooter />
   </div>
 </template>
