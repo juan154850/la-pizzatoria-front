@@ -49,3 +49,56 @@ img {
 .far-side-image {
   transform: scale(0.6) translateY(100px);
 }
+
+/* Responsive CSS */
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  .image-card {
+    width: 100%;
+  }
+
+  .main-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+  .image-card {
+    width: 70%;
+  }
+
+  .main-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  img {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 992px) {
+  .image-card {
+    width: 300px;
+  }
+
+  .main-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}

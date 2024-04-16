@@ -6,7 +6,7 @@
   import Menu from "./components/Menu.vue";
   import MenuGallery from "./components/MenuGallery.vue";
   import AboutUs from "./components/AboutUs.vue";
-  
+
   export default {
     name: "App",
     components: {
@@ -25,8 +25,8 @@
     <Nav />
     <Home />
     <Menu />
-    <MenuGallery />  
-    <AboutUs />  
+    <MenuGallery />
+    <AboutUs />
     <MyFooter />
   </div>
 </template>

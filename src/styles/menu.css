@@ -83,3 +83,59 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
+/* Responsive CSS */
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  .menu-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .menu-content {
+    margin-top: 50px;
+  }
+
+  .mt-c,
+  .mb-c {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+  .menu-img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .menu-content {
+    margin-top: 60px;
+  }
+
+  .mt-c,
+  .mb-c {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 992px) {
+  .menu-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .menu-content {
+    margin-top: 75px;
+  }
+
+  .mt-c,
+  .mb-c {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+  }
+}

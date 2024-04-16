@@ -3,9 +3,24 @@
   color: black;
   display: inline-block;
   font-size: 0.875rem;
-  width: 139px !important;
+  width: 100%;
 }
+
 .custom-button:hover {
   color: black;
   background-color: white;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+  .custom-button {
+    width: 70%;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 992px) {
+  .custom-button {
+    width: 50%;
+  }
 }

@@ -120,3 +120,69 @@ input[type="search"]:focus {
         width: 100%;
     }
 } 
+
+/* Responsive CSS */
+
+/* For mobile phones: */
+@media only screen and (max-width: 480px) {
+  .nav_bar {
+    padding: 10px;
+  }
+
+  .menu a {
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .search-icon {
+    right: 20px;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .nav_bar {
+    padding: 15px;
+  }
+
+  .menu a {
+    font-size: 18px;
+    padding: 7px 14px 7px 14px;
+  }
+
+  .search-icon {
+    right: 30px;
+  }
+}
+
+/* For small desktops: */
+@media only screen and (min-width: 769px) and (max-width: 1106px) {
+  .nav_bar {
+    padding: 20px;
+  }
+
+  .menu a {
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .search-icon {
+    right: 40px;
+  }
+}
+
+/* For large desktops: */
+@media only screen and (min-width: 1107px) {
+  .nav_bar {
+    padding: 20px 100px 20px 100px;
+  }
+
+  .menu a {
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .search-icon {
+    right: 40px;
+  }
+}

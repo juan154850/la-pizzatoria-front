@@ -1,4 +1,18 @@
 .img-left {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+    .img-left {
+        width: 90%;
+    }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 992px) {
+    .img-left {
+        width: 80%;
+    }
 }
